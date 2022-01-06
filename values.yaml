@@ -1,0 +1,8 @@
+grafana:
+  grafana.ini:
+    server:
+      root_url: http://localhost:9000/grafana
+    auth.anonymous: 
+      enabled: true
+  service:
+    port: 9000
